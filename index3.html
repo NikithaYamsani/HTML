@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" style="margin: 10px 150px;border: 3px solid rgb(170, 171, 174);padding: 15px 18px;">
+        <h1 style="text-align: center; color: rgb(71, 74, 74);">Feedback Form</h1><hr><br>
+        <label for="name"><strong>Name:</strong></label><br>
+        <input type="text" id="name" name="name" value="John" required>
+        <br>
+        <br>
+        <label for="email"><strong>Email:</strong></label><br>
+        <input type="email" id="email" name="email" value="john@example.com" required>
+        <br>
+        <br>
+        <label for="feedback"><strong>Feedback:</strong></label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+        <br>
+        <br>
+        <label for ="satisfaction"><strong>Rating:</strong>
+        <input type="radio" id="satisfaction1" name="satisfaction" value="1">
+        <label for="satisfaction1">Satisfied</label>
+        </label>
+        <input type="radio" id="satisfaction2" name="satisfaction" value="2">
+        <label for="satisfaction2">Neutral</label>
+        </label>
+        <input type="radio" id="satisfaction3" name="satisfaction" value="3">
+        <label for="satisfaction3">Dissatisfied</label>
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
